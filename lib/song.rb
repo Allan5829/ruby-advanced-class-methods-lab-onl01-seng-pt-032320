@@ -51,7 +51,7 @@ class Song
     song = ""
     song_array = []
     song_array = song.split(" - ")
-    song_array[1].delete_suffix(".mp3")
+    song_array[1].chomp(".mp3")
     song = self.new
     song.name = song_array[0]
     song.artist_name = song_array[1]
