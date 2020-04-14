@@ -48,7 +48,8 @@ class Song
   end 
   
   def self.new_from_filename (song)
-    
+    song_array = []
+    song_array = song.split
   end 
 
 end
